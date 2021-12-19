@@ -159,9 +159,9 @@ console.log(findPositiveNumbers(arr));
 
 // Например: из переданных значений ('a', 3) получаем массив ['a', 'a', 'a']
 
-let number = prompt("Введите кол-во");
+let number = number(prompt("Введите кол-во"));
 
-let number2 = prompt("Введите значение");
+let number2 = number(prompt("Введите значение"));
 
 function array (n1, n2){
     let newArray = [];
@@ -297,7 +297,7 @@ isInteger(a);
 // "2.5 decimal"
 
 
-let a = 20.6;
+let a = 20;
 
 function integerDetect(n){
   for (let i = 0; i <= n; i = i + 0.5){
