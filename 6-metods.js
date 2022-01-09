@@ -17,7 +17,7 @@ console.log(ucFirst('привет, мир!'));
 // Функция должна быть нечувствительна к регистру.
 
 function checkSpam(str){
-    if (str.toLowerCase() == 'badword' || str.toLowerCase() == 'xxx'){
+    if (str.includes('badword') == true || str.includes('xxx') == true){
         return true;
     } else {
         return false;
